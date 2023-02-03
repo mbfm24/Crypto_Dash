@@ -13,7 +13,7 @@
 
 ## Credits Disclaimer
 ## Github and Project Creators
-This code was built using [Github Location](https://github.com/michaelmikelic/Flight_Watch)
+This code was built using [Github Location](https://github.com/mbfm24/Crypto_Dash)
 <br>
 Authored By:
 - Andrew Israel [Israel Github](https://github.com/aisrael17)
@@ -21,4 +21,4 @@ Authored By:
 - Brian Portnoy [Portnoy Github](https://github.com/mbfm24)
 - Dave Petersen [Petersen Github](https://github.com/davepetersen)
 - Heber Cruz Berber [Berber Github](https://github.com/heberbcruz)
-- Ricardo Roberts [Roberts Github]
+- Ricardo Roberts [Roberts Github] (https://github.com/OhTarnishedOne)
