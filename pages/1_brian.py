@@ -1,10 +1,14 @@
 import streamlit as st
 import pandas as pd
 
+st.set_page_config(
+    page_title='Overview'
+)
+
 st.title("Crypto Dash")
 
 # Define a list of cryptocurrencies to display
-crypto_names = ["Bitcoin", "Ethereum", "Litecoin", "ZCash", "Chainlink","Doge"]
+CRYPTOS = ["Bitcoin", "Ethereum", "Litecoin", "ZCash", "Chainlink","Doge"]
 
 # Load the data for each cryptocurrency from a CSV file
 def load_crypto_data(crypto):

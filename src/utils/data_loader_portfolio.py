@@ -1,24 +1,20 @@
 import pandas as pd 
 import os
-
-df = pd.read_csv('../../data/btc.csv',
-                infer_datetime_format=True,
-                parse_dates=True,
-                header=1)
-
+import constants
 
 def generate_empty_portfolio():
-	folder_path = '../../data'
+	folder_path = './data'
 	csv_files = [f for f in os.listdir(folder_path) if f.endswith('.csv')]
 
 	csv_dict = {}
 	for file_name in csv_files:
-		key = file_name.replace('.csv', '')
-		csv_dict[key] = 0
-	
+		if file_name != 'portfolio_data.csv':
+			key = file_name.replace('.csv', '')
+			csv_dict[key] = 0
+		
 	return csv_dict
 
-def clean_data(df, drop_cols = ['unix', 'open', 'high', 'low']):
+def clean_data(df, drop_cols = ['open', 'high', 'low']):
 	"""Cleans the cryptocurrency price data in the dataframe.
 
 	Args:
@@ -34,9 +30,6 @@ def clean_data(df, drop_cols = ['unix', 'open', 'high', 'low']):
 	df = df.drop(columns=drop_cols)
 	df = df.drop_duplicates()
 
-	# Add returns
-	df['daily_return'] = df['close'].pct_change()
-
 	return df
 
 def filter_data(df, start_date, end_date):
@@ -45,9 +38,22 @@ def filter_data(df, start_date, end_date):
 	start_date = pd.to_datetime(start_date)
 	end_date = pd.to_datetime(end_date)
 	
-	df[(df['date'] >= start_date) & (df['Date'] <= end_date)]
+	df = df.loc[start_date:end_date]
 	
 	return df
 
-def calculate_portfolio_returns(dfs, portfolio):
-	portfolio_dfs = 
+def portfolio_returns(returns_df, weights):
+    returns_df['portfolio_return'] = 0
+    for index, row in returns_df.iterrows():
+        valid_weights = {crypto: weight for crypto, weight in weights.items() if not pd.isna(row[constants.symbols[crypto] + '_return'])}
+        if valid_weights and sum(valid_weights.values()) > 0:
+            normalized_weights = {crypto: weight / sum(valid_weights.values()) for crypto, weight in valid_weights.items()}
+            return_on_date = 0
+            for crypto, weight in normalized_weights.items():
+                return_on_date += row[constants.symbols[crypto] + '_return'] * weight
+            returns_df.loc[index, 'portfolio_return'] = return_on_date
+
+        else:
+            returns_df.loc[index, 'portfolio_return'] = 0
+
+    return returns_df
