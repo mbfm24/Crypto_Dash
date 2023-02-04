@@ -8,7 +8,7 @@
 ## Background Information
 
 ## Powerpoint Presentation
-[Powerpoint Presentation Link](https://docs.google.com/presentation/d/1AIt3gZWgNYsvvmt_Jqu_qvACLfcbmMH6KEj_2TK4jzk/edit#slide=id.g320332ed93_1_0)
+[Powerpoint Presentation Link](https://docs.google.com/presentation/d/1aYxwKnBbYhrKA0kopQNjytxtuNfCzDFYiJJX3PCrzRQ/edit?usp=sharing)
 
 
 ## Credits Disclaimer
@@ -21,4 +21,4 @@ Authored By:
 - Brian Portnoy [Portnoy Github](https://github.com/mbfm24)
 - Dave Petersen [Petersen Github](https://github.com/davepetersen)
 - Heber Cruz Berber [Berber Github](https://github.com/heberbcruz)
-- Ricardo Roberts [Roberts Github] (https://github.com/OhTarnishedOne)
+- Ricardo Roberts [Roberts Github](https://github.com/OhTarnishedOne)
