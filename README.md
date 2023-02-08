@@ -1,5 +1,7 @@
 # Crypto_Dash
 
+<!--![2023-02-05 11 49 21](https://user-images.githubusercontent.com/10933021/216836817-5e01b25c-b5e6-4952-8c60-a1ff5fa6c5cc.gif)-->
+
 
 ## Technologies Used
 
@@ -8,7 +10,7 @@
 ## Background Information
 
 ## Powerpoint Presentation
-[Powerpoint Presentation Link](https://docs.google.com/presentation/d/1AIt3gZWgNYsvvmt_Jqu_qvACLfcbmMH6KEj_2TK4jzk/edit#slide=id.g320332ed93_1_0)
+[Powerpoint Presentation Link]("C:\Users\mikel\Desktop\Crypto_Dash\Pics and Presentation\Crypto Dash.pdf")
 
 
 ## Credits Disclaimer
@@ -21,4 +23,8 @@ Authored By:
 - Brian Portnoy [Portnoy Github](https://github.com/mbfm24)
 - Dave Petersen [Petersen Github](https://github.com/davepetersen)
 - Heber Cruz Berber [Berber Github](https://github.com/heberbcruz)
+<<<<<<< HEAD
 - Ricardo Roberts [Roberts Github](https://github.com/OhTarnishedOne)
+=======
+- Ricardo Roberts [Roberts Github](https://github.com/OhTarnishedOne)
+>>>>>>> fda809df0ce086c1aab70722738812d67f493890
