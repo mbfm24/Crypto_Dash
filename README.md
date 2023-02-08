@@ -10,7 +10,7 @@
 ## Background Information
 
 ## Powerpoint Presentation
-[Powerpoint Presentation Link]("C:\Users\mikel\Desktop\Crypto_Dash\Pics and Presentation\Crypto Dash.pdf")
+[Powerpoint Presentation Link](https://github.com/mbfm24/Crypto_Dash/blob/Michael/Pics%20and%20Presentation/Crypto%20Dash.pdf)
 
 
 ## Credits Disclaimer
