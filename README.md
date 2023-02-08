@@ -23,8 +23,5 @@ Authored By:
 - Brian Portnoy [Portnoy Github](https://github.com/mbfm24)
 - Dave Petersen [Petersen Github](https://github.com/davepetersen)
 - Heber Cruz Berber [Berber Github](https://github.com/heberbcruz)
-<<<<<<< HEAD
 - Ricardo Roberts [Roberts Github](https://github.com/OhTarnishedOne)
-=======
-- Ricardo Roberts [Roberts Github](https://github.com/OhTarnishedOne)
->>>>>>> fda809df0ce086c1aab70722738812d67f493890
+
