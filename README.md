@@ -10,7 +10,7 @@
 ## Background Information
 
 ## Powerpoint Presentation
-[Powerpoint Presentation Link](https://docs.google.com/presentation/d/1aYxwKnBbYhrKA0kopQNjytxtuNfCzDFYiJJX3PCrzRQ/edit?usp=sharing)
+[Powerpoint Presentation Link](https://github.com/mbfm24/Crypto_Dash/blob/Michael/Pics%20and%20Presentation/Crypto%20Dash.pdf)
 
 
 ## Credits Disclaimer
@@ -23,4 +23,8 @@ Authored By:
 - Brian Portnoy [Portnoy Github](https://github.com/mbfm24)
 - Dave Petersen [Petersen Github](https://github.com/davepetersen)
 - Heber Cruz Berber [Berber Github](https://github.com/heberbcruz)
+<<<<<<< HEAD
 - Ricardo Roberts [Roberts Github](https://github.com/OhTarnishedOne)
+=======
+- Ricardo Roberts [Roberts Github](https://github.com/OhTarnishedOne)
+>>>>>>> fda809df0ce086c1aab70722738812d67f493890
