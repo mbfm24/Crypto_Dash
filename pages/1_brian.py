@@ -5,6 +5,15 @@ st.set_page_config(
     page_title='Overview'
 )
 
+# Remove main menu and footer defaults
+hide_default_format = """
+       <style>
+       #MainMenu {visibility: hidden; }
+       footer {visibility: hidden;}
+       </style>
+       """
+st.markdown(hide_default_format, unsafe_allow_html=True)
+
 st.title("Crypto Dash")
 
 # Define a list of cryptocurrencies to display

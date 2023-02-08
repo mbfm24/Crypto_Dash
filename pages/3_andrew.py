@@ -14,6 +14,17 @@ import data_loader_portfolio
 
 st.set_page_config(page_title='Portfolio Builder', page_icon='📊')
 
+# Remove main menu and footer defaults
+hide_default_format = """
+       <style>
+       #MainMenu {visibility: hidden; }
+       footer {visibility: hidden;}
+       </style>
+       """
+st.markdown(hide_default_format, unsafe_allow_html=True)
+
+
+
 st.markdown('# Portfolio Building Tool')
 st.sidebar.header('Portfolio Builder')
 st.sidebar.write('If weights sum to over 100%, it will be normalized by dividing by the sum.')
