@@ -1,8 +1,13 @@
 import streamlit as st
+from PIL import Image
+
+# Loading icon image using PIL
+img = Image.open('./Images/1f44b.png')
+
 
 st.set_page_config(
     page_title = "Welcome",
-    page_icon='👋'
+    page_icon=img
 )
 
 # Remove main menu and footer defaults

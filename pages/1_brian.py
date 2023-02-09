@@ -1,8 +1,14 @@
 import streamlit as st
 import pandas as pd
+from PIL import Image
 
+# Loading icon image using PIL
+img = Image.open('./Images/1f4c8.png')
+
+# Adding title and icon image to app
 st.set_page_config(
-    page_title='Overview'
+    page_title='Overview',
+    page_icon=img
 )
 
 # Remove main menu and footer defaults

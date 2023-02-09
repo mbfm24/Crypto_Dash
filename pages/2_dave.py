@@ -1,9 +1,14 @@
 import requests
 import datetime
 import streamlit as st
+from PIL import Image
 from newsapi import NewsApiClient
 
-st.set_page_config(page_title='News', page_icon='📰')
+# Loading icon image using PIL
+img = Image.open('./Images/1f4f0.png')
+
+# Adding title and icon image to app
+st.set_page_config(page_title='News', page_icon = img)
 
 # Remove main menu and footer defaults
 hide_default_format = """
