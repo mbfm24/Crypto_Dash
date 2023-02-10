@@ -63,7 +63,4 @@ everything = newsapi.get_everything(q='zcash', language='en', from_param=week_ag
 # Chainlink top-headlines
 everything = newsapi.get_everything(q='Chainlink', language='en', from_param=week_ago.strftime("%Y-%m-%d"), to=today.strftime("%Y-%m-%d"), page_size=5)
 
-#print(everything)
-
 #This code uses the streamlit library to display news headlines related to Bitcoin, Ethereum, Litecoin, ZCash, and Chainlink. It imports the os, requests, datetime and streamlit libraries. It also imports the NewsApiClient from the newsapi library. The page title is set to 'News' and the page icon is set to a newspaper emoji. A hardcoded api key is used for testing purposes. A date range is specified for the articles that will be displayed. The code then uses a for loop to get the top-headlines related to each of the five cryptocurrencies mentioned above and displays them on the page with a link to each article.
-
