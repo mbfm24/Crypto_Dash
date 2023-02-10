@@ -22,7 +22,7 @@ st.markdown(hide_default_format, unsafe_allow_html=True)
 st.title("Headlines")
 
 # Hardcoded api key for testing purposes
-newsapi = NewsApiClient(api_key='f52b9a0c753c4abb934b9b491356fe22')
+newsapi = NewsApiClient(api_key='3b4ac595b8824e5bb755ce0c9aec651a')
 
 # List of coins
 coins =['Bitcoin', 'Ethereum', 'Litecoin', 'ZCash', 'Chainlink']

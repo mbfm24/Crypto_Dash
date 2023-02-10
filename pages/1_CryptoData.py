@@ -20,7 +20,7 @@ hide_default_format = """
        """
 st.markdown(hide_default_format, unsafe_allow_html=True)
 
-st.title("Crypto Dash")
+st.title("Data")
 
 # Define a list of cryptocurrencies to display
 CRYPTOS = ["Bitcoin", "Ethereum", "Litecoin", "ZCash", "Chainlink","Doge"]
