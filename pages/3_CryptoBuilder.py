@@ -7,12 +7,27 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 import plotly.subplots as sp
 import plotly.graph_objs as go
+from PIL import Image
 
 sys.path.append('./src/utils')
 import data_loader_portfolio 
 
+# Loading icon image using PIL
+img = Image.open('./Images/1f4ca.png')
 
-st.set_page_config(page_title='Portfolio Builder', page_icon='📊')
+
+st.set_page_config(page_title='Portfolio Builder', page_icon=img)
+
+# Remove main menu and footer defaults
+hide_default_format = """
+       <style>
+       #MainMenu {visibility: hidden; }
+       footer {visibility: hidden;}
+       </style>
+       """
+st.markdown(hide_default_format, unsafe_allow_html=True)
+
+
 
 st.markdown('# Portfolio Building Tool')
 st.sidebar.header('Portfolio Builder')

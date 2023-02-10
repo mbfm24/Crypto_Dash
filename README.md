@@ -1,6 +1,6 @@
 # Crypto Dash
 
-<!--![2023-02-05 11 49 21](https://user-images.githubusercontent.com/10933021/216836817-5e01b25c-b5e6-4952-8c60-a1ff5fa6c5cc.gif)-->
+![2023-02-05 11 49 21](https://user-images.githubusercontent.com/10933021/216836817-5e01b25c-b5e6-4952-8c60-a1ff5fa6c5cc.gif)
 
 
 ## Technologies Used

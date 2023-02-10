@@ -1,11 +1,26 @@
 import streamlit as st
 import pandas as pd
+from PIL import Image
 
+# Loading icon image using PIL
+img = Image.open('./Images/1f4c8.png')
+
+# Adding title and icon image to app
 st.set_page_config(
-    page_title='Overview'
+    page_title='Overview',
+    page_icon=img
 )
 
-st.title("Crypto Dash")
+# Remove main menu and footer defaults
+hide_default_format = """
+       <style>
+       #MainMenu {visibility: hidden; }
+       footer {visibility: hidden;}
+       </style>
+       """
+st.markdown(hide_default_format, unsafe_allow_html=True)
+
+st.title("Data")
 
 # Define a list of cryptocurrencies to display
 CRYPTOS = ["Bitcoin", "Ethereum", "Litecoin", "ZCash", "Chainlink","Doge"]
