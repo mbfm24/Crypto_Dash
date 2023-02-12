@@ -22,14 +22,34 @@ Welcome to Crypto Dash, the ultimate tool for managing your cryptocurrency inves
 ![Portfolio Builder Demo](https://github.com/mbfm24/Crypto_Dash/blob/main/Images/portfolio_builder.gif)
 
 ## Technologies Used
+
+* python
+* pandas
+* sys
+* datetime
+* PIL
+* os
+* matplotlib
+* plotly
+* newsapi-python
+* streamlit
  
 ## Getting Started
+1. Clone the repository:
+`git clone https://github.com/mbfm24/crypto-dash.git'
+
+2. Install the required packages:
+`pip install`
+
+3. Run the app:
+`streamlit run Home.py`
+
 
 ## Powerpoint Presentation
 [Powerpoint Presentation Link](https://github.com/mbfm24/Crypto_Dash/blob/Michael/Pics%20and%20Presentation/Crypto%20Dash.pdf)
 
-
 ## Credits Disclaimer
+This is a capstone project created during the August 2022 FinTech Bootcamp through Columbia University.
 
 ## Github and Project Creators
 This code was built using [Github Location](https://github.com/mbfm24/Crypto_Dash)
